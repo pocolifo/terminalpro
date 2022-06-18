@@ -5,10 +5,9 @@ build:
 	g++ glad.c main.cpp -lGL -lglfw -o $(OUTPUT)
 
 clean:
-	rm $(OUTPUT)
+	-rm $(OUTPUT)
 
 test: clean build
-	rm
 	./$(OUTPUT)
 
 setup:

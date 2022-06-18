@@ -1,6 +1,5 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
 #include <iostream>
 
 void initGLFW() {
@@ -43,6 +42,9 @@ int main() {
     // init viewport
     glViewport(0, 0, 800, 600);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+
+    // load shaders
+    
 
     // loop
     while (!glfwWindowShouldClose(window)) {

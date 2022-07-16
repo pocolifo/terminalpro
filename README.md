@@ -6,6 +6,6 @@ It's cross-platform, modern, fast, and has all the features for your needs.
 
 # Develop: Get Started
 
-1. Install V.
+1. Install [V](https://vlang.io/)
 2. Compile with `v .`
 3. Run the binary!

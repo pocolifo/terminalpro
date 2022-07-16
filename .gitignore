@@ -1,3 +1,9 @@
-*.out
+# Binaries for programs and plugins
 main
-.vscode
+terminalpro
+*.exe
+*.exe~
+*.so
+*.dylib
+*.dll
+vls.log

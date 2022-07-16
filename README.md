@@ -6,8 +6,6 @@ It's cross-platform, modern, fast, and has all the features for your needs.
 
 # Develop: Get Started
 
-1. Install dependencies.
-    - OpenGL
-    - GLFW
-    - GLAD (see [glad/README.md](glad/README.md))
-2. Compile and run!
+1. Install V.
+2. Compile with `v .`
+3. Run the binary!
